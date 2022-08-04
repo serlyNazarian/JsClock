@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  background-image: url(http://images.clipartpanda.com/clock-clipart-black-and-white-clock-face-without-hands.png);
+  background-size: cover;
+}
+
+.mator {
+  width: 5px;
+  height: 5px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -30%) rotate(-90deg);
+}
+
+.arrow {
+  width: 120px;
+  height: 5px;
+  background: black;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.mator2 {
+  width: 5px;
+  height: 5px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.hour-arrow {
+  width: 80px;
+  height: 4px;
+  background: black;
+}
+
+.mator3 {
+  width: 5px;
+  height: 5px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.second-arrow {
+  width: 50px;
+  height: 3px;
+  background: red;
+}
